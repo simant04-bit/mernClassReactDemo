@@ -4,6 +4,7 @@ import Home from './pages/Home/home'
 import About from './pages/About/about'
 import Contact from './pages/Contact/contact'
 import Test from './pages/Test/Test'
+import UseEffect from './pages/UseEffect/UseEffect'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/test' element={<Test/>}/>
+    <Route path='/useeffect' element={<UseEffect/>} />
     {/* <Route path='/contact' element={<h1>I am from contact page</h1> }/> */}
 
     </Routes>
